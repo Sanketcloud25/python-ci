@@ -1,5 +1,7 @@
-def add(a, b):
-    return a + b
+# src/main.py
+
+def main():
+    pass
 
 if __name__ == "__main__":
-    print(add(1, 2))
+    main()
