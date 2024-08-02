@@ -8,7 +8,7 @@ pipeline {
             steps {
                 git 'https://github.com/Sanketcloud25/python-ci.git'
             }
-
+        } // <- Added this closing brace
         stage('Install Dependencies') {
             steps {
                 sh 'pip install -r requirements.txt'
