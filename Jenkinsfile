@@ -7,6 +7,11 @@ pipeline {
                 git 'https://github.com/Sanketcloud25/python-ci.git'
             }
         }
+        stage('Install pip') {
+            steps {
+                sh 'sudo yum install pip -y'
+            }
+        }
         stage('Install Dependencies') {
             steps {
                 sh 'pip install -r requirements.txt'
