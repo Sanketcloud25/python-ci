@@ -1,5 +1,11 @@
+# tests/test_main.py
+
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+
 import unittest
-from src.main import add
+from main import add  # Correct import statement
 
 class TestMain(unittest.TestCase):
     def test_add(self):
