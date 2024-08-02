@@ -1,0 +1,7 @@
+my-python-app/
+├── Jenkinsfile
+├── requirements.txt
+├── src/
+│   └── main.py
+└── tests/
+    └── test_main.py
